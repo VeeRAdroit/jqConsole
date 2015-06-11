@@ -1,0 +1,104 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+margin:0px;
+background-color: silver;
+
+}
+
+input[type=text]#command,input[type=text].tt-hint, span#prompt, div.tt-menu {
+background-color: black;
+color: #00ff33;
+color: rgba(0, 256, 51, 1);
+letter-spacing:2px;
+margin: 0;
+font-family: 'Lucida Console';
+font-size: 18px;
+padding: 10px;
+}
+
+span#prompt {
+float:left;
+display: block;
+position: absolute;
+z-index:20;
+max-width:30px;
+}
+
+input[type="text"]#command,input[type=text].tt-hint{
+width: 100%;
+position:absolute !important;
+overflow: hidden;
+display:inline;
+top:0px;
+left:0px;
+outline:none;
+border:none;
+}
+
+span.twitter-typeahead{
+position:absolute !important;
+background-color:red;
+width:100% !important;
+border-bottom: solid 2px #969696;
+margin-left:30px !important;
+margin-top:0px !important;
+}
+
+div.tt-menu{
+position:relative !important;
+margin-top:30px;
+width:100%;
+margin-left:-30px;
+padding-left:40px;
+}
+
+input[type=text].tt-hint{
+color: rgba(0, 256, 51, 0.5);
+}
+
+div.result{
+font-family: 'Sans Serif';
+display: block;
+margin: 0;
+width: 100%;
+padding: 10px;
+border-bottom: solid 2px silver;
+background-color: white;
+}
+
+span.commandPrompt{
+color: blue;
+}
+
+.success{
+color: green;
+font-weight: bold;
+}
+
+.error{
+color: red;
+font-weight: bold;
+}
+
+.command{
+font-family: 'Lucida Console';
+font-weight: bold;
+}
+
+hr{
+color: silver;
+margin: 0px;
+}
+
+a:hover{
+cursor: pointer;
+}
+
+div#consoleResults{
+padding-top:40px;
+}
